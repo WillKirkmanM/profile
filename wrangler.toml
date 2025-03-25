@@ -1,0 +1,10 @@
+name = "profile"
+account_id = "3ea332e9ef80919f7ea9b031c22507ae"
+workers_dev = true
+compatibility_date = "2024-03-24"
+
+main = "worker.ts"
+
+kv_namespaces = [
+  { binding = "GITHUB_KV", id = "8b704d4c70f44913afe927ff67d3c43b", preview_id = "" }
+]
