@@ -923,27 +923,6 @@ export default function ProfilePage({ params }: PageParams) {
           </div>
         </div>
       </main>
-      
-      <footer className="max-w-screen-xl mx-auto px-4 py-8 mt-8 border-t border-gray-200">
-        <div className="flex flex-col sm:flex-row justify-between items-center text-xs text-gray-600">
-          <div className="mb-4 sm:mb-0 flex items-center">
-            <FiGithub className="mr-2" />
-            <span>© {new Date().getFullYear()} GitHub, Inc.</span>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a href="#" className="hover:text-blue-600">Terms</a>
-            <a href="#" className="hover:text-blue-600">Privacy</a>
-            <a href="#" className="hover:text-blue-600">Security</a>
-            <a href="#" className="hover:text-blue-600">Status</a>
-            <a href="#" className="hover:text-blue-600">Docs</a>
-            <a href="#" className="hover:text-blue-600">Contact GitHub</a>
-            <a href="#" className="hover:text-blue-600">Pricing</a>
-            <a href="#" className="hover:text-blue-600">API</a>
-            <a href="#" className="hover:text-blue-600">Training</a>
-            <a href="#" className="hover:text-blue-600">Blog</a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
