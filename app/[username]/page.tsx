@@ -513,7 +513,7 @@ export default function ProfilePage({ params }: PageParams) {
         <div className="max-w-screen-xl mx-auto px-5 py-3.5 flex items-center justify-between">
           <div className="flex items-center space-x-5">
             <Link href="/" className="flex items-center gap-2">
-              <Image src={`https://github.com/${username}.png`} alt={`${username} Image`} className='w-6 h-6 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center' width={100} height={100} />
+              <Image src={"/parsonlabs.png"} alt={`${username} Image`} className='w-6 h-6 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center' width={100} height={100} />
               <span className="font-medium tracking-tight text-gray-900">Parson Profile</span>
             </Link>
             
